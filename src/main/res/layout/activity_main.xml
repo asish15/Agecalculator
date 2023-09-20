@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Calculate your "
+        android:textColor="#CA2222"
+        android:textSize="34sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:text="AGE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#CA2222"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+    <TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="55dp"
+    android:layout_marginTop="20dp"
+    android:text="In Minutes"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+    android:textColor="#CA2222"
+    android:textSize="34sp"
+    android:textStyle="bold"
+    android:visibility="visible" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="35sp"
+        android:text="SELECT DATE" />
+
+    <TextView
+        android:id="@+id/yourdate"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:text="31.12.2001"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#CA2222"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:ignore="InvalidId" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:text="14000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#CA2222"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginTop="1dp"
+        android:text="in minutes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#CA2222"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+</LinearLayout>
